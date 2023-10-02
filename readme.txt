@@ -1,9 +1,12 @@
+This repository contains all the files of my master thesis: Football outcomes prediction with tensor completion embeddings.
+This thesis was successfully defended with an A in June 2023.
+
 In folder data/results_files, there are files with results and statistics from all leagues
 and seasons.
 In folder data/feature_matrices, there are files with home and away feature matrices
 for each league. Each matrix consists of the feature vectors and each vector corresponds
 to one team.
-In folder src/analysis, there are python notebooks analysing the dataset 
+In folder src/analysis, there are python notebooks analysing the dataset
 and the feature vectors.
 In folder src/implemetation, there are python notebooks implementing all the models
 with all the feature sets and leagues.
@@ -12,7 +15,7 @@ of the models.
 The pyten.zip file is the compressed Pyten package, which is used for the tensor completion
 model implemetation.
 In folder src/thesis, there are figures and Latex source code files of the thesis.
-In folder text, there is the Diploma thesis in PDF and PS format.
+In folder text, there is the Master thesis in PDF and PS format.
 
 All notebooks were developed and tested in Google Colab. It is recommended to run them
 in Google Colab, because they use libraries such as scikit-learn or Tensorflow.
